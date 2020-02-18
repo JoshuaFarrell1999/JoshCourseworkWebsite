@@ -1,0 +1,56 @@
+body {
+	background-color: black;
+	color:rgb(255, 255, 255);
+}
+.header {
+	width: 100%;
+	height: 100px;
+	top: 0px;
+	display: flex;
+}
+.header a {
+	background-color: black;
+	color:rgb(255, 255, 255);
+	font-size: 100px;
+}
+.vertical-menu {
+	width: 200px; /* Set a width if you like */
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top: 100px;
+	left: 0px;
+}
+  .vert {
+	  font-size: 40px;
+	  vertical-align: middle;
+	  
+  }
+  .vertical-menu a {
+	background-color:rgb(68, 68, 68); /* Grey background color */
+	color:rgb(255, 255, 255); /* Black text color */
+	display: block; /* Make the links appear below each other */
+	padding: 12px; /* Add some padding */
+	text-decoration: none; /* Remove underline from links */
+  }
+  .vert {
+	  height: 100%;
+  }
+  
+  .vertical-menu a:hover {
+	background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+	background-color: #4CAF50; /* Add a green color to the "active/current" link */
+	color: white;
+  }
+.content-area {
+	margin-left: 210px;
+	margin-top: 110px;
+}
+.citations-list {
+	margin-left: 210px;
+	margin-top: 110px;
+}
